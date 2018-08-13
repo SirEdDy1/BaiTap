@@ -19,7 +19,7 @@ p.Font{
     color: black;
 }
 .SkillDescription{
-    background: white;
+    background: rgba(255, 255, 255, 0.753);
     display: inline-block;
     padding: 1.5%;
 }
@@ -33,4 +33,8 @@ p.Font{
     padding: 1em;
     margin: 10px 0 0 0;
     text-align: left;
+}
+.classIcon{
+    width: 460px;
+    
 }
