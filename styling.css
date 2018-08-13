@@ -7,13 +7,12 @@ body {
 }
 .fontH1{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: orangered;
+    color: rgb(240, 242, 243);
 }
 .fontH2{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-style: italic;
-    font-weight: bolder;
-    color: orangered;
+    color: rgb(240, 242, 243);
 }
 
 .container-fluid{
@@ -71,4 +70,14 @@ p.Font{
 .icon{
     grid-area: titleSection;
     display: flex;
+}
+.skill-block2{
+    display: grid;
+    grid-template-areas: 
+    'titleSection   videoSection'
+    'costrangeSection   videoSection'
+    'description    videoSection';
+    grid-gap: 18px;
+    grid-template-columns: auto 350px;
+    grid-template-rows: 64px auto;
 }
