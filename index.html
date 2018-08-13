@@ -8,20 +8,24 @@
     <link rel="stylesheet" href="./styling.css">
 </head>
 <body>
-<div>
-    <div id="ChampionName">
+<div class="container-fluid">
+    <div id="ChampionName" class="ChampionName">
         <h1 class="fontH1">Gangplank<h1>
         <h4 class="fontH2">The Saltwater's Scourge</h4>
     </div>
     <div id="SkillDescription" class="SkillDescription content">
-        <h3 class="SkillTitles">Trial by fire</h3>
-        <div id="Icon">
-            <img src="./Gangplank_Passive.png" alt="Passive">
+
+        <div class="skill-block">
+            <div id="Icon" class="icon">
+                <img src="./Gangplank_Passive.png" width="64px" height="64px" alt="Passive">
+                <h3 class="SkillTitles">Trial by fire</h3>
+            </div>
+            <div id="PassiveName" class="description">
+                <p class="p.Font">Every few seconds, Gangplank's melee strike will set his opponent on fire.</p>
+            </div>
+            <video class='video' controls src="https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0041/ability_0041_P1.webm" type="video/webm"></video>
         </div>
-        <div id="PassiveName">
-            <p class="p.Font">Every few seconds, Gangplank's melee strike will set his opponent on fire.</p>
-        </div>
-        <video width="320" height="240" controls src="https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0041/ability_0041_P1.webm" type="video/webm"></video>
+        
         <h3 class="SkillTitles">Parrrley</h3>
         <div id="IconQ" class="classIcon">
             <img src="./GangplankQWrapper.png" alt="Q">

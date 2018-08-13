@@ -15,26 +15,60 @@ body {
     font-weight: bolder;
     color: orangered;
 }
+
+.container-fluid{
+    width: 100% !important;
+}
+
 p.Font{
     color: black;
 }
 .SkillDescription{
     background: rgba(255, 255, 255, 0.753);
-    display: inline-block;
-    padding: 1.5%;
+    display: block;
+    width: 960px;
+    padding: 1em;
+    margin: 15px auto auto auto !important;
+    text-align: left;
 }
+
+.ChampionName{
+    display: block;
+    text-align: center
+}
+
 .SkillTitles{
    font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
     font-size: 150%;
+    padding-left: 0.5em
 }
-.content{
-    width: 960px;
-    padding: 1em;
-    margin: 10px 0 0 0;
-    text-align: left;
-}
+
 .classIcon{
     width: 460px;
     
+}
+
+.skill-block{
+    display: grid;
+    grid-template-areas: 
+    'titleSection   videoSection'
+    'description    videoSection';
+    grid-gap: 18px;
+    grid-template-columns: auto 350px;
+    grid-template-rows: 64px auto;
+}
+
+.video{
+    grid-area: videoSection;
+    width: 350px;
+}
+
+.description{
+    grid-area: description;
+}
+
+.icon{
+    grid-area: titleSection;
+    display: flex;
 }
