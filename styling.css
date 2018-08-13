@@ -28,3 +28,9 @@ p.Font{
     font-weight: bolder;
     font-size: 150%;
 }
+.content{
+    width: 960px;
+    padding: 1em;
+    margin: 10px 0 0 0;
+    text-align: left;
+}
